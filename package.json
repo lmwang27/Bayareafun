@@ -122,7 +122,7 @@
     "ngc": "ngc -p tsconfig-aot.json",
     "cleanup": "rimraf target/{aot,www}",
     "clean-www": "rimraf target//www/app/{src,target/}",
-    "start": "yarn run webpack:dev & node app.js &",
+    "start": "node app.js & yarn run webpack:dev &",
     "serve": "yarn run start",
     "build": "yarn run webpack:prod",
     "test": "yarn run lint && jest --coverage --logHeapUsage -w=2 --config src/test/javascript/jest.conf.js",
