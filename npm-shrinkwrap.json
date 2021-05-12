@@ -791,11 +791,6 @@
       "integrity": "sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==",
       "dev": true
     },
-    "addressparser": {
-      "version": "0.3.2",
-      "resolved": "https://registry.npmjs.org/addressparser/-/addressparser-0.3.2.tgz",
-      "integrity": "sha1-WYc/Nej89sc2HBAjkmHXbhU0i7I="
-    },
     "after": {
       "version": "0.8.2",
       "resolved": "https://registry.npmjs.org/after/-/after-0.8.2.tgz",
@@ -1301,11 +1296,6 @@
         "uuid": "3.3.2",
         "xml2js": "0.4.19"
       }
-    },
-    "aws-sdk-apis": {
-      "version": "3.1.10",
-      "resolved": "http://registry.npmjs.org/aws-sdk-apis/-/aws-sdk-apis-3.1.10.tgz",
-      "integrity": "sha1-Tu2X9ZChbPCA/RuNjP3yRy3oqw4="
     },
     "aws-sign2": {
       "version": "0.7.0",
@@ -5083,30 +5073,6 @@
         }
       }
     },
-    "directmail": {
-      "version": "0.1.8",
-      "resolved": "https://registry.npmjs.org/directmail/-/directmail-0.1.8.tgz",
-      "integrity": "sha1-5IUsigxVGb70kE/Nltdggi9CpEY=",
-      "requires": {
-        "simplesmtp": "~0.3.30"
-      }
-    },
-    "dkim-signer": {
-      "version": "0.1.2",
-      "resolved": "https://registry.npmjs.org/dkim-signer/-/dkim-signer-0.1.2.tgz",
-      "integrity": "sha1-L/XWHIfY+/9aixMc/8XsO6HCVVM=",
-      "requires": {
-        "mimelib": "~0.2.15",
-        "punycode": "~1.2.4"
-      },
-      "dependencies": {
-        "punycode": {
-          "version": "1.2.4",
-          "resolved": "https://registry.npmjs.org/punycode/-/punycode-1.2.4.tgz",
-          "integrity": "sha1-VACKyXKux0F13vnLpt9/qdORh0A="
-        }
-      }
-    },
     "dns-equal": {
       "version": "1.0.0",
       "resolved": "https://registry.npmjs.org/dns-equal/-/dns-equal-1.0.0.tgz",
@@ -6527,14 +6493,6 @@
             "safe-buffer": "~5.1.0"
           }
         }
-      }
-    },
-    "follow-redirects": {
-      "version": "0.0.3",
-      "resolved": "https://registry.npmjs.org/follow-redirects/-/follow-redirects-0.0.3.tgz",
-      "integrity": "sha1-bOZ6JNsf4T8ibBFxpyp+8rF7j2U=",
-      "requires": {
-        "underscore": "^1.9.1"
       }
     },
     "for-in": {
@@ -8841,11 +8799,6 @@
         "inherits": "^2.0.3",
         "minimalistic-assert": "^1.0.1"
       }
-    },
-    "he": {
-      "version": "0.3.6",
-      "resolved": "https://registry.npmjs.org/he/-/he-0.3.6.tgz",
-      "integrity": "sha1-nXvERud5Y5MzAd1gLVcxy4YRNeA="
     },
     "hmac-drbg": {
       "version": "1.0.1",
@@ -13119,25 +13072,6 @@
       "integrity": "sha512-mmLbumEYMi5nXReB9js3WGsB8UE6cDBWyIO62Z4DNx6GbRhDxHNjA1MlzSpJ2S2KM1wyiPRA0d19uHWYYvMHjA==",
       "dev": true
     },
-    "mailcomposer": {
-      "version": "0.2.12",
-      "resolved": "https://registry.npmjs.org/mailcomposer/-/mailcomposer-0.2.12.tgz",
-      "integrity": "sha1-TQKmBGFq3LRfs203UT9MG9C3VoE=",
-      "requires": {
-        "dkim-signer": "~0.1.1",
-        "follow-redirects": "0.0.3",
-        "he": "~0.3.6",
-        "mime": "~1.2.11",
-        "mimelib": "~0.2.15"
-      },
-      "dependencies": {
-        "mime": {
-          "version": "1.2.11",
-          "resolved": "https://registry.npmjs.org/mime/-/mime-1.2.11.tgz",
-          "integrity": "sha1-WCA+7Ybjpe8XrtK32evUfwpg3RA="
-        }
-      }
-    },
     "make-dir": {
       "version": "1.3.0",
       "resolved": "https://registry.npmjs.org/make-dir/-/make-dir-1.3.0.tgz",
@@ -13574,15 +13508,6 @@
         "mime-db": "1.40.0"
       }
     },
-    "mimelib": {
-      "version": "0.2.19",
-      "resolved": "https://registry.npmjs.org/mimelib/-/mimelib-0.2.19.tgz",
-      "integrity": "sha1-N+yQpqx9AJVIUdCywxYY8KSdoO4=",
-      "requires": {
-        "addressparser": "~0.3.2",
-        "encoding": "~0.1.7"
-      }
-    },
     "mimic-fn": {
       "version": "1.2.0",
       "resolved": "https://registry.npmjs.org/mimic-fn/-/mimic-fn-1.2.0.tgz",
@@ -14000,48 +13925,10 @@
       }
     },
     "nodemailer": {
-      "version": "0.7.1",
-      "resolved": "http://registry.npmjs.org/nodemailer/-/nodemailer-0.7.1.tgz",
-      "integrity": "sha1-HsgZ4kNiIwCgCr50bLXTOJwPMWw=",
-      "requires": {
-        "aws-sdk": "2.0.5",
-        "directmail": "~0.1.7",
-        "he": "~0.3.6",
-        "mailcomposer": "~0.2.10",
-        "public-address": "~0.1.1",
-        "readable-stream": "~1.1.9",
-        "simplesmtp": "~0.2 || ~0.3.30"
-      },
-      "dependencies": {
-        "aws-sdk": {
-          "version": "2.0.5",
-          "resolved": "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.0.5.tgz",
-          "integrity": "sha1-8+uxiY0GMre2Zy6Nd3KMu7afmMY=",
-          "requires": {
-            "aws-sdk-apis": "3.x",
-            "xml2js": "0.2.6",
-            "xmlbuilder": "0.4.2"
-          }
-        },
-        "sax": {
-          "version": "0.4.2",
-          "resolved": "https://registry.npmjs.org/sax/-/sax-0.4.2.tgz",
-          "integrity": "sha1-OfO2AXM9a+yXEFskKipA/Wl4rDw="
-        },
-        "xml2js": {
-          "version": "0.2.6",
-          "resolved": "https://registry.npmjs.org/xml2js/-/xml2js-0.2.6.tgz",
-          "integrity": "sha1-0gnE5N2h/JxFIUHvQcB39a399sQ=",
-          "requires": {
-            "sax": "0.4.2"
-          }
-        },
-        "xmlbuilder": {
-          "version": "0.4.2",
-          "resolved": "https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-0.4.2.tgz",
-          "integrity": "sha1-F3bWXz/brUcKCNhgTN6xxOVA/4M="
-        }
-      }
+      "version": "6.4.16",
+      "resolved": "http://registry.npmjs.org/nodemailer/-/nodemailer-6.4.16.tgz",
+      "integrity": "sha512-68K0LgZ6hmZ7PVmwL78gzNdjpj5viqBdFqKrTtr9bZbJYj6BRj5W6WGkxXrEnUl3Co3CBXi3CZBUlpV/foGnOQ==",
+      "dev": true
     },
     "nomnom": {
       "version": "1.8.1",
@@ -15984,11 +15871,6 @@
       "integrity": "sha512-HZzqCGPecFLyoRj5HLfuDSKYTJkAfB5thKBIkRHtGjWwY7p1dAyveIbXIq4tO0KYfDF2tHqPUgY9SDnGm00uFw==",
       "dev": true
     },
-    "public-address": {
-      "version": "0.1.2",
-      "resolved": "https://registry.npmjs.org/public-address/-/public-address-0.1.2.tgz",
-      "integrity": "sha1-+V8+DPKLifllsPGI/RJnrAhWVS8="
-    },
     "public-encrypt": {
       "version": "4.0.3",
       "resolved": "https://registry.npmjs.org/public-encrypt/-/public-encrypt-4.0.3.tgz",
@@ -16084,11 +15966,6 @@
       "requires": {
         "performance-now": "^2.1.0"
       }
-    },
-    "rai": {
-      "version": "0.1.12",
-      "resolved": "https://registry.npmjs.org/rai/-/rai-0.1.12.tgz",
-      "integrity": "sha1-jM/QFND5YIYw3XPBm45LBXdUpqY="
     },
     "randexp": {
       "version": "0.5.3",
@@ -16320,6 +16197,7 @@
       "version": "1.1.14",
       "resolved": "https://registry.npmjs.org/readable-stream/-/readable-stream-1.1.14.tgz",
       "integrity": "sha1-fPTFTvZI44EwhMY23SB54WbAgdk=",
+      "dev": true,
       "requires": {
         "core-util-is": "~1.0.0",
         "inherits": "~2.0.1",
@@ -16330,7 +16208,8 @@
         "isarray": {
           "version": "0.0.1",
           "resolved": "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz",
-          "integrity": "sha1-ihis/Kmo9Bd+Cav8YDiTmwXR7t8="
+          "integrity": "sha1-ihis/Kmo9Bd+Cav8YDiTmwXR7t8=",
+          "dev": true
         }
       }
     },
@@ -17394,15 +17273,6 @@
         }
       }
     },
-    "simplesmtp": {
-      "version": "0.3.35",
-      "resolved": "https://registry.npmjs.org/simplesmtp/-/simplesmtp-0.3.35.tgz",
-      "integrity": "sha1-AXseuLJjF6w20qKoqTJjGIBzagM=",
-      "requires": {
-        "rai": "~0.1.11",
-        "xoauth2": "~0.1.8"
-      }
-    },
     "slash": {
       "version": "1.0.0",
       "resolved": "https://registry.npmjs.org/slash/-/slash-1.0.0.tgz",
@@ -18190,7 +18060,8 @@
     "string_decoder": {
       "version": "0.10.31",
       "resolved": "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz",
-      "integrity": "sha1-YuIDvEF2bGwoyfyEMB2rHFMQ+pQ="
+      "integrity": "sha1-YuIDvEF2bGwoyfyEMB2rHFMQ+pQ=",
+      "dev": true
     },
     "stringify-object": {
       "version": "3.3.0",
@@ -19657,11 +19528,6 @@
       "resolved": "https://registry.npmjs.org/ultron/-/ultron-1.1.1.tgz",
       "integrity": "sha512-UIEXBNeYmKptWH6z8ZnqTeS8fV74zG0/eRU9VGkpzz+LIJNs8W/zM/L+7ctCkRrgbNnnR0xxw4bKOr0cW0N0Og==",
       "dev": true
-    },
-    "underscore": {
-      "version": "1.9.1",
-      "resolved": "https://registry.npmjs.org/underscore/-/underscore-1.9.1.tgz",
-      "integrity": "sha512-5/4etnCkd9c8gwgowi5/om/mYO5ajCaOgdzj/oW+0eQV9WxKBDZw5+ycmKmeaTXjInS/W0BzpGLo2xR2aBwZdg=="
     },
     "union-value": {
       "version": "1.0.1",
@@ -21606,11 +21472,6 @@
       "resolved": "https://registry.npmjs.org/xmlhttprequest-ssl/-/xmlhttprequest-ssl-1.5.5.tgz",
       "integrity": "sha1-wodrBhaKrcQOV9l+gRkayPQ5iz4=",
       "dev": true
-    },
-    "xoauth2": {
-      "version": "0.1.8",
-      "resolved": "https://registry.npmjs.org/xoauth2/-/xoauth2-0.1.8.tgz",
-      "integrity": "sha1-uRb/EOz7VDIPFvJKPpdRIGU6sNI="
     },
     "xregexp": {
       "version": "4.0.0",
