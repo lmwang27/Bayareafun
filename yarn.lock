@@ -452,10 +452,6 @@ acorn@^5.0.0, acorn@^5.2.1, acorn@^5.5.3:
   version "5.7.4"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
 
-addressparser@~0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/addressparser/-/addressparser-0.3.2.tgz#59873f35e8fcf6c7361c10239261d76e15348bb2"
-
 after@0.8.2:
   version "0.8.2"
   resolved "https://registry.yarnpkg.com/after/-/after-0.8.2.tgz#fedb394f9f0e02aa9768e702bda23b505fae7e1f"
@@ -876,18 +872,6 @@ autoprefixer@^6.3.1:
     num2fraction "^1.2.2"
     postcss "^5.2.16"
     postcss-value-parser "^3.2.3"
-
-aws-sdk-apis@3.x:
-  version "3.1.10"
-  resolved "https://registry.yarnpkg.com/aws-sdk-apis/-/aws-sdk-apis-3.1.10.tgz#4eed97f590a16cf080fd1b8d8cfdf2472de8ab0e"
-
-aws-sdk@2.0.5:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.0.5.tgz#f3ebb1898d0632b7b6672e8d77728cbbb69f98c6"
-  dependencies:
-    aws-sdk-apis "3.x"
-    xml2js "0.2.6"
-    xmlbuilder "0.4.2"
 
 aws-sdk@latest:
   version "2.543.0"
@@ -3218,19 +3202,6 @@ dir-glob@^2.2.2:
   dependencies:
     path-type "^3.0.0"
 
-directmail@~0.1.7:
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/directmail/-/directmail-0.1.8.tgz#e4852c8a0c5519bef4904fcd96d760822f42a446"
-  dependencies:
-    simplesmtp "~0.3.30"
-
-dkim-signer@~0.1.1:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/dkim-signer/-/dkim-signer-0.1.2.tgz#2ff5d61c87d8fbff5a8b131cffc5ec3ba1c25553"
-  dependencies:
-    mimelib "~0.2.15"
-    punycode "~1.2.4"
-
 dns-equal@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/dns-equal/-/dns-equal-1.0.0.tgz#b39e7f1da6eb0a75ba9c17324b34753c47e0654d"
@@ -3445,12 +3416,6 @@ encoding@^0.1.11:
   resolved "https://registry.yarnpkg.com/encoding/-/encoding-0.1.13.tgz#56574afdd791f54a8e9b2785c0582a2d26210fa9"
   dependencies:
     iconv-lite "^0.6.2"
-
-encoding@~0.1.7:
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/encoding/-/encoding-0.1.12.tgz#538b66f3ee62cd1ab51ec323829d1f9480c74beb"
-  dependencies:
-    iconv-lite "~0.4.13"
 
 end-of-stream@^1.0.0, end-of-stream@^1.1.0:
   version "1.4.1"
@@ -4260,12 +4225,6 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.1"
     readable-stream "^2.0.4"
 
-follow-redirects@0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-0.0.3.tgz#6ce67a24db1fe13f226c1171a72a7ef2b17b8f65"
-  dependencies:
-    underscore ""
-
 follow-redirects@1.5.10:
   version "1.5.10"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
@@ -4970,10 +4929,6 @@ he@1.1.x:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/he/-/he-1.1.1.tgz#93410fd21b009735151f8868c2f271f3427e23fd"
 
-he@~0.3.6:
-  version "0.3.6"
-  resolved "https://registry.yarnpkg.com/he/-/he-0.3.6.tgz#9d7bc446e77963933301dd602d5731cb861135e0"
-
 hmac-drbg@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
@@ -5203,7 +5158,7 @@ iconv-lite@0.4.23, iconv-lite@^0.4.17, iconv-lite@^0.4.4, iconv-lite@^0.4.5:
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
-iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@~0.4.13:
+iconv-lite@0.4.24, iconv-lite@^0.4.24:
   version "0.4.24"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
   dependencies:
@@ -6924,16 +6879,6 @@ macos-release@^2.2.0:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/macos-release/-/macos-release-2.4.1.tgz#64033d0ec6a5e6375155a74b1a1eba8e509820ac"
 
-mailcomposer@~0.2.10:
-  version "0.2.12"
-  resolved "https://registry.yarnpkg.com/mailcomposer/-/mailcomposer-0.2.12.tgz#4d02a604616adcb45fb36d37513f4c1bd0b75681"
-  dependencies:
-    dkim-signer "~0.1.1"
-    follow-redirects "0.0.3"
-    he "~0.3.6"
-    mime "~1.2.11"
-    mimelib "~0.2.15"
-
 make-dir@^1.0.0, make-dir@^1.1.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/make-dir/-/make-dir-1.3.0.tgz#79c1033b80515bd6d24ec9933e860ca75ee27f0c"
@@ -7250,17 +7195,6 @@ mime@1.6.0:
 mime@^2.3.1:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/mime/-/mime-2.5.0.tgz#2b4af934401779806ee98026bb42e8c1ae1876b1"
-
-mime@~1.2.11:
-  version "1.2.11"
-  resolved "https://registry.yarnpkg.com/mime/-/mime-1.2.11.tgz#58203eed86e3a5ef17aed2b7d9ebd47f0a60dd10"
-
-mimelib@~0.2.15:
-  version "0.2.19"
-  resolved "https://registry.yarnpkg.com/mimelib/-/mimelib-0.2.19.tgz#37ec90a6ac7d00954851d0b2c31618f0a49da0ee"
-  dependencies:
-    addressparser "~0.3.2"
-    encoding "~0.1.7"
 
 mimic-fn@^1.0.0:
   version "1.2.0"
@@ -7607,18 +7541,9 @@ node-pre-gyp@^0.10.0:
     semver "^5.3.0"
     tar "^4"
 
-nodemailer@^0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-0.7.1.tgz#1ec819e243622300a00abe746cb5d3389c0f316c"
-  dependencies:
-    aws-sdk "2.0.5"
-    directmail "~0.1.7"
-    he "~0.3.6"
-    mailcomposer "~0.2.10"
-    public-address "~0.1.1"
-    simplesmtp "~0.2 || ~0.3.30"
-  optionalDependencies:
-    readable-stream "~1.1.9"
+nodemailer@^6.4.16:
+  version "6.4.16"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.4.16.tgz#5cb6391b1d79ab7eff32d6f9f48366b5a7117293"
 
 nomnom@^1.8.1:
   version "1.8.1"
@@ -8807,10 +8732,6 @@ psl@^1.1.28:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/psl/-/psl-1.8.0.tgz#9326f8bcfb013adcc005fdff056acce020e51c24"
 
-public-address@~0.1.1:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/public-address/-/public-address-0.1.2.tgz#f95f3e0cf28b89f965b0f188fd1267ac0856552f"
-
 public-encrypt@^4.0.0:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/public-encrypt/-/public-encrypt-4.0.2.tgz#46eb9107206bf73489f8b85b69d91334c6610994"
@@ -8854,10 +8775,6 @@ punycode@2.x.x, punycode@^2.1.0, punycode@^2.1.1:
 punycode@^1.2.4, punycode@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
-
-punycode@~1.2.4:
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.2.4.tgz#54008ac972aec74175def9cba6df7fa9d3918740"
 
 q@^1.1.2:
   version "1.5.1"
@@ -8919,10 +8836,6 @@ raf@^3.1.0:
   resolved "https://registry.yarnpkg.com/raf/-/raf-3.4.1.tgz#0742e99a4a6552f445d73e3ee0328af0ff1ede39"
   dependencies:
     performance-now "^2.1.0"
-
-rai@~0.1.11:
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/rai/-/rai-0.1.12.tgz#8ccfd014d0f9608630dd73c19b8e4b057754a6a6"
 
 randexp@0.5.3:
   version "0.5.3"
@@ -9174,15 +9087,6 @@ readable-stream@^2.3.7:
     safe-buffer "~5.1.1"
     string_decoder "~1.1.1"
     util-deprecate "~1.0.1"
-
-readable-stream@~1.1.9:
-  version "1.1.14"
-  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-1.1.14.tgz#7cf4c54ef648e3813084c636dd2079e166c081d9"
-  dependencies:
-    core-util-is "~1.0.0"
-    inherits "~2.0.1"
-    isarray "0.0.1"
-    string_decoder "~0.10.x"
 
 readdirp@^2.0.0:
   version "2.1.0"
@@ -9720,10 +9624,6 @@ sane@^2.0.0:
   optionalDependencies:
     fsevents "^1.2.3"
 
-sax@0.4.2:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/sax/-/sax-0.4.2.tgz#39f3b601733d6bec97105b242a2a40fd6978ac3c"
-
 sax@1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.1.tgz#7b8e656190b228e81a66aea748480d828cd2d37a"
@@ -10040,13 +9940,6 @@ simple-swizzle@^0.2.2:
   resolved "https://registry.yarnpkg.com/simple-swizzle/-/simple-swizzle-0.2.2.tgz#a4da6b635ffcccca33f70d17cb92592de95e557a"
   dependencies:
     is-arrayish "^0.3.1"
-
-"simplesmtp@~0.2 || ~0.3.30", simplesmtp@~0.3.30:
-  version "0.3.35"
-  resolved "https://registry.yarnpkg.com/simplesmtp/-/simplesmtp-0.3.35.tgz#017b1eb8b26317ac36d2a2a8a932631880736a03"
-  dependencies:
-    rai "~0.1.11"
-    xoauth2 "~0.1.8"
 
 slash@^1.0.0:
   version "1.0.0"
@@ -11177,10 +11070,6 @@ ultron@~1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ultron/-/ultron-1.1.1.tgz#9fe1536a10a664a65266a1e3ccf85fd36302bc9c"
 
-underscore@:
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.9.1.tgz#06dce34a0e68a7babc29b365b8e74b8925203961"
-
 underscore@~1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.6.0.tgz#8b38b10cacdef63337b8b24e4ff86d45aea529a8"
@@ -11988,12 +11877,6 @@ xml-name-validator@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/xml-name-validator/-/xml-name-validator-3.0.0.tgz#6ae73e06de4d8c6e47f9fb181f78d648ad457c6a"
 
-xml2js@0.2.6:
-  version "0.2.6"
-  resolved "https://registry.yarnpkg.com/xml2js/-/xml2js-0.2.6.tgz#d209c4e4dda1fc9c452141ef41c077f5adfdf6c4"
-  dependencies:
-    sax "0.4.2"
-
 xml2js@0.4.19:
   version "0.4.19"
   resolved "https://registry.yarnpkg.com/xml2js/-/xml2js-0.4.19.tgz#686c20f213209e94abf0d1bcf1efaa291c7827a7"
@@ -12005,10 +11888,6 @@ xml@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/xml/-/xml-1.0.1.tgz#78ba72020029c5bc87b8a81a3cfcd74b4a2fc1e5"
 
-xmlbuilder@0.4.2:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-0.4.2.tgz#1776d65f3fdbad470a08d8604cdeb1c4e540ff83"
-
 xmlbuilder@~9.0.1:
   version "9.0.7"
   resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-9.0.7.tgz#132ee63d2ec5565c557e20f4c22df9aca686b10d"
@@ -12016,10 +11895,6 @@ xmlbuilder@~9.0.1:
 xmlhttprequest-ssl@~1.5.4:
   version "1.5.5"
   resolved "https://registry.yarnpkg.com/xmlhttprequest-ssl/-/xmlhttprequest-ssl-1.5.5.tgz#c2876b06168aadc40e57d97e81191ac8f4398b3e"
-
-xoauth2@~0.1.8:
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/xoauth2/-/xoauth2-0.1.8.tgz#b916ff10ecfb54320f16f24a3e975120653ab0d2"
 
 xregexp@4.0.0:
   version "4.0.0"
