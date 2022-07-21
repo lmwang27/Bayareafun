@@ -12772,9 +12772,9 @@
       "dev": true
     },
     "lodash-es": {
-      "version": "4.17.20",
-      "resolved": "https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.20.tgz",
-      "integrity": "sha512-JD1COMZsq8maT6mnuz1UMV0jvYD0E0aUsSOdrr1/nAG3dhqQXwRRgeW0cSqH1U43INKcqxaiVIQNOUDld7gRDA=="
+      "version": "4.17.21",
+      "resolved": "https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.21.tgz",
+      "integrity": "sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw=="
     },
     "lodash._reinterpolate": {
       "version": "3.0.0",
@@ -13918,8 +13918,7 @@
     "nodemailer": {
       "version": "6.4.16",
       "resolved": "http://registry.npmjs.org/nodemailer/-/nodemailer-6.4.16.tgz",
-      "integrity": "sha512-68K0LgZ6hmZ7PVmwL78gzNdjpj5viqBdFqKrTtr9bZbJYj6BRj5W6WGkxXrEnUl3Co3CBXi3CZBUlpV/foGnOQ==",
-      "dev": true
+      "integrity": "sha512-68K0LgZ6hmZ7PVmwL78gzNdjpj5viqBdFqKrTtr9bZbJYj6BRj5W6WGkxXrEnUl3Co3CBXi3CZBUlpV/foGnOQ=="
     },
     "nomnom": {
       "version": "1.8.1",
